@@ -3,7 +3,7 @@
 ![ic_launcher](https://user-images.githubusercontent.com/11782272/34640805-c2ddaf2c-f31f-11e7-8323-9241ba02f0cd.png)
 
 ## What is Dagger 2
-  Dagger 2 is a library which helps the developer to implement a pattern of Dependency Injection (one specific form of Inversion of control). Dagger build constructor arguments to inject objects at runtime uses @Qualifiers to differentiate multiple clients with same return type and @Scopes to prevent multiple objects creation of same type. 
+  Dagger 2 is a library which helps the developer to implement a pattern of Dependency Injection (one specific form of Inversion of control). Dagger build constructor arguments to inject objects at runtime uses @Qualifiers to differentiate multiple clients with same return type and @Scope to prevent multiple objects creation of the same type and make Singleton. 
   
 
 
