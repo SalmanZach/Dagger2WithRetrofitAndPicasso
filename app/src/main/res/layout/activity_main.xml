@@ -8,6 +8,17 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="#6b6b6b"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:text="City: Jaipur"/>
+
             <android.support.v7.widget.RecyclerView
                 android:id="@+id/recycler"
                 android:layout_width="match_parent"
@@ -17,7 +28,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:textSize="30sp"
+                android:textSize="22sp"
+                android:textStyle="bold"
                 android:textColor="#6b6b6b"
                 android:layout_margin="10dp"
                 android:text="Weather"/>

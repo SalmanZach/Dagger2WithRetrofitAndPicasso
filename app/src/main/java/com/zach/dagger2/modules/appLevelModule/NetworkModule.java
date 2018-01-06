@@ -48,7 +48,7 @@ public class NetworkModule {
 
     @Provides
     public Cache cache(File file){
-        return new Cache(file, 2*104*1024);
+        return new Cache(file, 10*104*1024);
     }
 
 
