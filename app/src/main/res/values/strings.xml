@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Dagger2</string>
+    <string name="temperature_with_degree" translatable="false">%s\u00B0</string>
+    <string name="pressure_measurement">hPa</string>
+    <string name="cloudiness_label"> %1$s%2$s</string>
+    <string name="percent_sign" translatable="false">\u0025</string>
+
+</resources>
