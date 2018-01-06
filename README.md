@@ -4,8 +4,10 @@
 
 ## What is Dagger 2
   Dagger 2 is a library which helps the developer to implement a pattern of Dependency Injection (one specific form of Inversion of control).
+  
 
-# Inversion of control (IoC) principles
+
+## Inversion of control (IoC) principles
 This is a process to provide any program component with the external dependence. 
 
 1. The modules of top levels shouldn’t depend on modules of the lower levels. The modules of all levels should depend on abstractions.
@@ -17,7 +19,9 @@ Design disadvantages to be eliminated with IoC
 2. Fragility. If we change one part of program the other parts will have got uncontrolled errors.
 3. Immobility. The single module can be hardly separated from the rest part of the application to be used again.
 
-# Base elements (annotations) of Dagger 2
+  ![ic245808](https://user-images.githubusercontent.com/11782272/34641049-f1b3e43e-f323-11e7-8071-142a3e202ea3.png)
+
+## Base elements (annotations) of Dagger 2
 
 1. @Inject — base annotation whereby the “dependency is requested”
 2. @Module — classes which methods “provide dependencies”
