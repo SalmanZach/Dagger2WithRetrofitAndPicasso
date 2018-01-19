@@ -20,6 +20,8 @@ This is a process to provide any program component with the external dependence.
 3. Immobility. The single module can be hardly separated from the rest part of the application to be used again.
 
   ![ic245808](https://user-images.githubusercontent.com/11782272/34641049-f1b3e43e-f323-11e7-8071-142a3e202ea3.png)
+####  More About IoC   
+  <a href="https://msdn.microsoft.com/en-us/library/ff921087.aspx">Here</a> you car find the full article.
 
 ## Base elements (annotations) of Dagger 2
 
