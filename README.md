@@ -31,7 +31,7 @@ This is a process to provide any program component with the external dependence.
 6. @Qualifier — if different objects of the same type are necessary.
 
 ## How to use
-First Need to add dependency in your Gradle. 
+Need to add dependency in your Gradle. 
 
    //retrofit
    
