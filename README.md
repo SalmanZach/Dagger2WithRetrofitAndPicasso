@@ -33,7 +33,8 @@ This is a process to provide any program component with the external dependence.
 6. @Qualifier — if different objects of the same type are necessary.
 
 ## How to use
-Need to add dependency in your Gradle.   
+Need to add dependency in your Gradle.  
+
    //dagger2
    
     compile 'com.google.dagger:dagger-android:2.11'
@@ -44,8 +45,9 @@ Need to add dependency in your Gradle.
     annotationProcessor 'com.google.dagger:dagger-android-processor:2.11'    
    //retrofit
    
-   compile 'com.squareup.retrofit2:retrofit:2.3.0'    
-  //Gson converter   
+    compile 'com.squareup.retrofit2:retrofit:2.3.0'    
+   
+  //Gson converter     
   
     compile 'com.google.code.gson:gson:2.8.1'
     compile 'com.squareup.retrofit2:converter-gson:2.3.0'
