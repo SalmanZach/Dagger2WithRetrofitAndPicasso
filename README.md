@@ -20,6 +20,8 @@ This is a process to provide any program component with the external dependence.
 3. Immobility. The single module can be hardly separated from the rest part of the application to be used again.
 
   ![ic245808](https://user-images.githubusercontent.com/11782272/34641049-f1b3e43e-f323-11e7-8071-142a3e202ea3.png)
+####  More About IoC   
+  <a href="https://msdn.microsoft.com/en-us/library/ff921087.aspx">Here</a> you can find full article about Inversion Of Control.
 
 ## Base elements (annotations) of Dagger 2
 
@@ -31,34 +33,31 @@ This is a process to provide any program component with the external dependence.
 6. @Qualifier — if different objects of the same type are necessary.
 
 ## How to use
-First Need to add dependency in your Gradle. 
+Need to add dependency in your Gradle.  
 
-   //retrofit
-   
-    compile 'com.squareup.retrofit2:retrofit:2.3.0'
-    
-  //Gson converter   
-  
-    compile 'com.google.code.gson:gson:2.8.1'
-    compile 'com.squareup.retrofit2:converter-gson:2.3.0'
-    compile 'org.parceler:parceler-api:1.1.9'
-    annotationProcessor 'org.parceler:parceler:1.1.9'
-    
-   //ok http
-   
-    compile 'com.squareup.okhttp3:logging-interceptor:3.9.1'
-    compile 'com.jakewharton.picasso:picasso2-okhttp3-downloader:1.1.0'
-    
-   //picasso
-   
-    compile 'com.squareup.picasso:picasso:2.5.2'
-    
    //dagger2
    
     compile 'com.google.dagger:dagger-android:2.11'
     compile 'com.google.dagger:dagger-android-support:2.11'
     annotationProcessor 'com.google.dagger:dagger-compiler:2.11'
-
    // if you use the support libraries
    
-    annotationProcessor 'com.google.dagger:dagger-android-processor:2.11'
+    annotationProcessor 'com.google.dagger:dagger-android-processor:2.11'    
+   //retrofit
+   
+    compile 'com.squareup.retrofit2:retrofit:2.3.0'    
+   
+  //Gson converter     
+  
+    compile 'com.google.code.gson:gson:2.8.1'
+    compile 'com.squareup.retrofit2:converter-gson:2.3.0'
+    compile 'org.parceler:parceler-api:1.1.9'
+    annotationProcessor 'org.parceler:parceler:1.1.9'    
+   //ok http
+   
+    compile 'com.squareup.okhttp3:logging-interceptor:3.9.1'
+    compile 'com.jakewharton.picasso:picasso2-okhttp3-downloader:1.1.0'    
+   //picasso
+   
+    compile 'com.squareup.picasso:picasso:2.5.2'
+  
